@@ -37,7 +37,6 @@
 .side-image{
     grid-area: side-image;
     border: 1px solid;
-    background-color: brown;
     padding: 30px;
 }
 
