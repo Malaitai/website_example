@@ -1,0 +1,31 @@
+Navigation
+* Home (Link)
+* About Us (Link)
+* Enrolment (Link)
+* Students (Link)
+* Parents (Link)
+* Contact (Link)
+
+Presentation? (use <section></section> tags)
+* At least 3 photos
+* Text on top
+
+About the school
+* Information about the school (text)
+* Picture on side
+
+(use <section></section> tags)
+* Academic
+* Sports
+* Arts
+
+Footer
+* Contact Us
+* 119 Mountain Road, Mangere, Auckland 
+* +64-9-275-9640
+ 
+
+
+Excellent NZ school websites
+https://www.stcuthberts.school.nz/
+https://www.kingscollege.school.nz/

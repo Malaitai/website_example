@@ -1,0 +1,131 @@
+/*<div class="container">
+    <div class = "nav"></div>
+    <div class="slideshow"></div>
+    <div class="side-image"></div>
+    <div class="information"></div>
+    <div class="subject academic"></div>
+    <div class="subject sports"></div>
+    <div class="subject arts"></div>
+    <div class="footer"></div>*/
+
+.container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        'nav nav nav'
+        'slideshow slideshow slideshow'
+        'side-image information information'
+        'academics sports arts'
+        'footer footer footer';
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.nav{
+    grid-area: nav;
+    border: 1px solid;
+}
+
+.main-image{
+    grid-area: slideshow;
+    border: 1px solid;
+    background-color: beige;
+}
+
+.side-image{
+    grid-area: side-image;
+    border: 1px solid;
+    background-color: brown;
+    padding: 30px;
+}
+
+.information{
+    grid-area: information;
+    border: 1px solid;
+    padding: 30px;
+}
+
+.academics{
+    grid-area: academics;
+    border: 1px solid;
+    padding: 30px;
+    text-align: center;
+}
+
+.sports{
+    grid-area: sports;
+    border: 1px solid;
+    padding: 30px;
+    text-align: center;
+    background-color: coral;
+}
+
+.arts{
+    grid-area: arts;
+    border: 1px solid;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer{
+    grid-area: footer;
+    border: 1px solid;
+    padding: 30px;
+}
+
+ul{
+    list-style-type: none; /*removes bullet points*/
+    margin: 0;
+    padding: 0; /*removes padding*/
+    overflow: hidden;
+    background-color: cadetblue;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    padding: 14px 16px; /*spaces the navigation buttons around the*/
+    text-decoration: none; /*removes underline*/
+}
+
+li a:hover{
+    background-color: lightblue;
+}
+
+.picture{
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 1000px){
+    html{
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    html{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "nav"
+        "slideshow"
+        "side-image"
+        "information"
+        "academic"
+        "sports"
+        "arts"
+        "footer";
+    }
+}
