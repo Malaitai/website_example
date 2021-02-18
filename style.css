@@ -1,13 +1,7 @@
-/*<div class="container">
-    <div class = "nav"></div>
-    <div class="slideshow"></div>
-    <div class="side-image"></div>
-    <div class="information"></div>
-    <div class="subject academic"></div>
-    <div class="subject sports"></div>
-    <div class="subject arts"></div>
-    <div class="footer"></div>*/
-
+:root{
+    --main-color: skyblue;
+}
+    
 .container{
     display: grid;
     grid-gap: 10px;
@@ -50,6 +44,7 @@
     border: 1px solid;
     padding: 30px;
     text-align: center;
+    background-color: var(--main-color);
 }
 
 .sports{
@@ -57,6 +52,7 @@
     border: 1px solid;
     padding: 30px;
     text-align: center;
+    background-color: var(--main-color);
 }
 
 .arts{
@@ -64,6 +60,7 @@
     border: 1px solid;
     padding: 30px;
     text-align: center;
+    background-color: var(--main-color);
 }
 
 .footer{
@@ -120,7 +117,7 @@ li a:hover{
         "slideshow"
         "side-image"
         "information"
-        "academic"
+        "academics"
         "sports"
         "arts"
         "footer";
